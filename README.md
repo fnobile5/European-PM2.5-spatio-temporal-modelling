@@ -62,4 +62,8 @@ The scripts are written in **R** and primarily rely on the following packages:
 If you use these scripts or adapt this workflow for research, please cite the corresponding publication:
 > XXXXXX WILL BE ADDED
 
-Distributed under the MIT License. See `LICENSE` for more information.
+## License
+
+Copyright (c) 2026 [Federica Nobile]. All rights reserved.
+
+The code in this repository is shared for peer review, reproducibility, and academic consultation only. Redistribution, re-publication, modification, sublicensing, or commercial use (in whole or in part) is strictly prohibited without prior written permission from the author.
