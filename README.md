@@ -35,12 +35,9 @@ This repository contains R scripts for developing spatio-temporal PM2.5 exposure
 * `3a. ModelPM25_RF.R`: Fitting and hyperparameter tuning of the Random Forest model.
 * `3b. ModelPM25_XGB.R`: Fitting and hyperparameter tuning of the Extreme Gradient Boosting (XGBoost) model.
 
-### 4. Ensemble Modeling
-* `4. ModelPM25_ENSEMBLE.R`: Implementation of the ensemble model combining learner-base model predictions.
-
-### 5. Cross-Validation
-* `5a. Spatial-blocked cv scheme.R`: Partitioning of data (by monitors) into spatially independent clusters/folds using spatial blocked cross-validation.
-* `5b. Cross-validation ensemble by group.R`: Performance evaluation (RMSE, R^2, inter, slope) of base learners and the ensemble model.
+### 4. Ensemble Modeling and 5. Cross-Validation
+* `Spatial-blocked cv scheme.R`: Partitioning of data (by monitors) into spatially independent folds using spatial blocked cross-validation.
+* `4_5. ModelPM25_ENSEMBLE.R`: Implementation of the ensemble model combining learner-base model predictions and nested cv performance evaluation (RMSE, R^2) of learners and the ensemble model.
 
 ### 6. Spatial Prediction & Mapping
 * `6a. Prediction RF model_Europe.R`: Continental-scale gridded prediction using Random Forest.
