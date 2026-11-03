@@ -1,5 +1,9 @@
 # European-PM2.5-spatio-temporal-modelling
 
+Author: Federica Nobile
+Affiliations: Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden
+              Department of Epidemiology, Lazio Region Health Service/ASL Roma 1, Rome, Italy
+
 This repository contains R scripts for developing spatio-temporal PM2.5 exposure models across Europe (using the year 2019 as an example). The workflow is organized modularly according to the consecutive stages of the data and modeling pipeline.
 
 ---
